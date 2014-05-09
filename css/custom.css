@@ -1,10 +1,33 @@
-/* - - - Custom Theme - - - */
-h1, h2, h3, h4, h5, h6 {
-	font-weight: bold;
-	font-size: 1em;
-	margin: 0;
-	color: #dddc05;
-	margin-bottom: 1em;
-}
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+body {font: 90%/1.5em "Helvetia", "Arial", sans-serif;color: #ddd;-webkit-font-smoothing: antialiased;}
+#logo {display: none;}
+a {color: #dddc05;text-decoration: underline;outline: 0;transition .2s;}
+a:hover {text-decoration: none;color: #fff;}
+#container, html.embed {position: absolute;top: 120px;right: 10%;z-index: 5;background: #231f20;padding: 30px;width: 500px;}
+
+
+.wufoo .info h2 {color: #dddc05;margin-bottom: 1em;margin-bottom: 1em;font-size: 2.2em;letter-spacing: -1px;}
+.wufoo .info {border-bottom: none;}
+.wufoo .info div {color: #ddd;}
+.wufoo .section div{color: inherit;font-size: inherit;padding: 15px 20px;}
+.wufoo .section h3 {border-top: none;}
+.wufoo .section h3 {color: #dddc05;font-weight: bold;font-size: 90%;margin-bottom:10px;}
+.wufoo label.desc {color:inherit;}
+.wufoo legend.desc, .wufoo label.choice {color:#ccc;}
+.wufoo li div label, .wufoo li span label {color: #ccc;}
+
+
+.wufoo li.focused{background-color: #2e292a;}
+.wufoo input.text {border: 0;outline: 0;margin: 0;background: #2e292a;padding: 5px 0;width: 100%;color: #fff;border-bottom: 1px solid #666;}
+.wufoo input.btTxt {background: #dddc05;border: none;padding: 10px 20px;border-radius: 5px;display: block;width: 70%;margin: 0 auto;margin-top: 10px;font-weight: bold;}
+.wufoo input.file {color: #fff;font-size: 80%;}
+.wufoo textarea.textarea{outline: 0;margin: 0;background: #2e292a;padding: 5px 0;width: 100%;color: #fff;border: 1px solid #666;border-radius: 3px;padding: 10px;}
+
+.field {background: #2e292a;padding: 15px 20px;}
+.marg-bot{margin-bottom: 20px!important ;}
+
 
 
