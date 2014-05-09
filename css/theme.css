@@ -1,0 +1,116 @@
+/* - - - Custom Theme - - - */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	font-size: 1em;
+	margin: 0;
+	color: #dddc05;
+	margin-bottom: 1em;
+}
+.info h2 {font-weight: bold; font-size: 2.2em;
+letter-spacing: -1px; margin-bottom: 1em}
+a {	color: #dddc05;}
+a:hover {color: #fff; text-decoration: none;}
+body {
+	margin: 0;
+	color: #ddd;
+	font: 90%/1.5em "Helvetia", "Arial", sans-serif;
+	background: url(http://trondelagsutstillingen.no/wp-content/uploads/IMG_1517-2000.jpg) no-repeat fixed;
+	-webkit-font-smoothing: antialiased;
+
+}
+#container {
+	border: none;
+	background: #231f20;
+	max-width: 520px;
+	margin: 0 auto;
+	padding: 40px;
+	margin-top: 120px;
+}
+input.text, input.search, textarea.textarea {
+	border: 0;
+	outline: 0;
+	margin: 0;
+	background: #2e292a;
+	padding: 5px 0;
+	width: 100%;
+	color: #fff;
+	border-bottom: 1px solid #666;
+	color: #727272;
+}
+form li div label, form li span label {
+	color: #ddd;
+}
+
+label.desc, legend.desc {color: #fff;}
+
+form li div {color: #ddd;}
+
+
+.info div {color: #ddd;}
+
+form li.focused {
+background-color: transparent;
+}
+
+label.choice {color: #fff;}
+
+input#saveForm{
+	color: rgb(253, 253, 253);
+	background: rgb(100, 100, 100);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+}
+
+/*Reset*/
+.wufoo {}
+fieldset {
+	display: block; 
+	border: none; 
+	margin: 0; 
+	padding: 0;
+}
+form ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background: #2e292a;
+	padding: 30px;}
+
+.info{border-bottom: none;}
+
+
+form li{padding:10px 1% 9px 1%}
+form li.section h3 {border-top:none;}
+form li.section div {font-size: 14px;}
+label.desc, legend.desc {font-weight: normal;}
+
+.field-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.field-input::before {
+  content: 'Select some files';
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.field-input:hover::before {
+  border-color: black;
+}
+.field-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+input.file {color:#727272;font-size: 80%}
+.hide{display: none;}
+
+
+
