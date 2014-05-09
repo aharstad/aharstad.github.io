@@ -6,18 +6,22 @@ h1, h2, h3, h4, h5, h6 {
 	color: #dddc05;
 	margin-bottom: 1em;
 }
-.info h2 {font-weight: bold; font-size: 2.2em;
+
+input,textarea,select,button{font:1em/1.5em "Helvetica","Arial",sans-serif}
+html,body,form,blockquote{border:0;margin:0;padding:0;-webkit-font-smoothing:antialiased}
+img{border:0;vertical-align:middle;-ms-interpolation-mode:bicubic}p{margin:0 0 1em 0}
+html{height:100%;cursor:default;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body{height:100%;color:#ddd;font:90%/1.5em "Helvetia", "Arial", sans-serif;background:#231f20}
+a{color:#dddc05;text-decoration:underline;outline:0}a:hover,a:focus{text-decoration:none;color:#fff}
+blockquote{font-size:1.6em;line-height:1.1em;color:#dddc05;margin:0}blockquote a{color:#dddc05}
+h1,h2,h3,h4,h5,h6{font-weight:bold;font-size:1em;margin:0;color:#dddc05;margin-bottom:1em}
+h1{font-size:2.2em;letter-spacing:-1px}
+
+
 letter-spacing: -1px; margin-bottom: 1em}
 a {	color: #dddc05;}
 a:hover {color: #fff; text-decoration: none;}
-body {
-	margin: 0;
-	color: #ddd;
-	font: 90%/1.5em "Helvetia", "Arial", sans-serif;
-	/*background: url(http://trondelagsutstillingen.no/wp-content/uploads/IMG_1517-2000.jpg) no-repeat fixed;*/
-	-webkit-font-smoothing: antialiased;
-
-}
+body {margin: 0;color: #ddd;font: 90%/1.5em "Helvetia", "Arial", sans-serif;-webkit-font-smoothing: antialiased;}
 html.embed {background: transparent;}
 #container {
 	border: none;
@@ -26,6 +30,7 @@ html.embed {background: transparent;}
 	margin: 0 auto;
 	padding: 40px;
 }
+.info h2 {font-weight: bold; font-size: 2.2em;
 input.text, input.search, textarea.textarea {
 	border: 0;
 	outline: 0;
