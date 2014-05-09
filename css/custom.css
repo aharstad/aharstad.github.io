@@ -23,11 +23,14 @@ a:hover {text-decoration: none;color: #fff;}
 .wufoo li.focused{background-color: #2e292a;}
 .wufoo input.text {border: 0;outline: 0;margin: 0;background: #2e292a;padding: 5px 0;width: 100%;color: #fff;border-bottom: 1px solid #666;}
 .wufoo input.btTxt {background: #dddc05;border: none;padding: 10px 20px;border-radius: 5px;display: block;width: 70%;margin: 0 auto;margin-top: 10px;font-weight: bold;}
-.wufoo input.file {color: #fff;font-size: 80%;}
+.safari .wufoo input.file {color: #fff;font-size: 80%;}
+.wufoo select.select {color: #ccc;}
 .wufoo textarea.textarea{outline: 0;margin: 0;background: #2e292a;padding: 5px 0;width: 100%;color: #fff;border: 1px solid #666;border-radius: 3px;padding: 10px;}
 
 .field {background: #2e292a;padding: 15px 20px;}
 .field section >h3 {display: none;}
 .marg-bot{margin-bottom: 20px!important ;}
+
+
 
 
