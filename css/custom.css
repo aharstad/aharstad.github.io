@@ -18,6 +18,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 
 }
+html.embed {background: transparent;}
 #container {
 	border: none;
 	background: #231f20;
