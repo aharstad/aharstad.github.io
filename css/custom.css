@@ -24,7 +24,6 @@ body {
 	max-width: 520px;
 	margin: 0 auto;
 	padding: 40px;
-	margin-top: 120px;
 }
 input.text, input.search, textarea.textarea {
 	border: 0;
