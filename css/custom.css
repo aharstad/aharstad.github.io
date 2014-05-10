@@ -2,7 +2,10 @@
 *{color: #ddd!important;}
 .wufoo {font: 90%/1.5em "Helvetia", "Arial", sans-serif;color: #ddd;-webkit-font-smoothing: antialiased;background: #231f20;padding: 20px!important;}
 body {font-size:inherit;margin:0;}
+a, b {color: #bc3e9f!important;}
+a:hover {color:#fff;}
 #container{margin: 0;max-width: 640px;}
+#logo{display: none;}
 form.wufoo {margin:0;}
 .wufoo .info h2 {line-height: 1.1em;color: #bc3e9f!important;font-weight: bold;margin: 0;margin-bottom: 1em;font-size: 2.2em;letter-spacing: -1px;}
 .wufoo input.text {border: 0;outline: 0;margin: 0;background: #2e292a;padding: 5px 0;width: 100%;color: #fff;border-bottom: 1px solid #666;}
