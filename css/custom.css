@@ -6,15 +6,13 @@ body {font: 90%/1.5em "Helvetia", "Arial", sans-serif;color: #ddd;-webkit-font-s
 #logo {display: none;}
 a {color: #dddc05;text-decoration: underline;outline: 0;transition .2s;}
 a:hover {text-decoration: none;color: #fff;}
-#container, html.embed {position: absolute;top: 120px;right: 10%;z-index: 5;background: #231f20;padding: 30px;width: 500px;}
-
-
+#container, html.embed {background: #231f20;padding: 30px;max-width: 600px;}
 .wufoo .info h2 {color: #dddc05;margin-bottom: 1em;margin-bottom: 1em;font-size: 2.2em;letter-spacing: -1px;}
 .wufoo .info {border-bottom: none;}
 .wufoo .info div {color: #ddd;}
 .wufoo .section div{color: inherit;font-size: inherit;padding: 15px 20px;}
-.wufoo .section h3 {border-top: none;}
-.wufoo .section h3 {color: #dddc05;font-weight: bold;font-size: 90%;margin-bottom:10px;}
+.wufoo .section h3 {}
+.wufoo .section h3 {color: #dddc05;font-weight: bold;font-size: 90%;margin-bottom:10px;border-top: none;background: #231f20;padding: 20px 0;}
 .wufoo label.desc {color:inherit;}
 .wufoo legend.desc, .wufoo label.choice {color:#ccc;}
 .wufoo li div label, .wufoo li span label {color: #ccc;}
@@ -30,7 +28,3 @@ a:hover {text-decoration: none;color: #fff;}
 .field {background: #2e292a;padding: 15px 20px;}
 .field section >h3 {display: none;}
 .marg-bot{margin-bottom: 20px!important ;}
-
-
-
-
