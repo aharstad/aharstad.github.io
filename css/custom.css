@@ -14,7 +14,7 @@ form.wufoo {margin:0;}
 
 .wufoo textarea.textarea{background: gray;border: 1px solid gray;border-radius: 2px;}
 
-.wufoo .info, .wufoo .paging-context .wufoo .section h3 form li.section h3 {border: none;}
+.wufoo .info, .wufoo .paging-context, .wufoo .section h3, form li.section h3 {border: none;}
 #231f20
 #2e292a
 
