@@ -11,11 +11,12 @@ form.wufoo {margin:0;}
 .wufoo .section h3 {color: #bc3e9f!important;text-transform: uppercase;font-weight: bold;font-size: 1em;margin-bottom: 1em;}
 .wufoo .section div {font-size: inherit;}
 .wufoo input.text {border: 0;outline: 0;margin: 0;background: #231f20;padding: 5px 0;width: 100%;color: #fff;border-bottom: 1px solid #666;}
-
+.wufoo input.btTxt {text-decoration: none;color: #fff;background: #bc3e9f;padding: 10px 30px;margin: 0 2px 2px 0;border: none;font-size: 100%;font-family: inherit;}
 .wufoo textarea.textarea{background: gray;border: 1px solid gray;border-radius: 2px;}
 
 .wufoo .info, .wufoo .paging-context, .wufoo .section h3, form li.section h3 {border: none;}
 .wufoo label.desc, .wufoo legend.desc {color: #A3A3A3!important;}
+
 #231f20
 #2e292a
 
