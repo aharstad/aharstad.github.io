@@ -4,7 +4,7 @@
 body {font-size:inherit;margin:0;}
 a, b {color: #bc3e9f!important;}
 a:hover {color:#fff;}
-#container{margin: 0;max-width: 680px;border:none;position: relative;top: 100px;}
+#container{margin: 0 auto;max-width: 680px;border:none;position: relative;top: 100px;}
 #container, html.embed {background-color: transparent;}
 #logo{display: none;}
 form.wufoo {margin:0;}
