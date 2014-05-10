@@ -13,42 +13,7 @@ form.wufoo {margin:0;}
 .wufoo input.text {border: 0;outline: 0;margin: 0;background: #231f20;padding: 5px 0;width: 100%;color: #fff;border-bottom: 1px solid #666;}
 .wufoo input.btTxt {text-decoration: none;color: #fff;background: #bc3e9f;padding: 10px 30px;margin: 0 2px 2px 0;border: none;font-size: 100%;font-family: inherit;}
 .wufoo textarea.textarea{background: transparent;border-left: none;border-right: none;border-top: none;border-bottom: 1px solid #666;}
-
 .wufoo .info, .wufoo .paging-context, .wufoo .section h3, form li.section h3 {border: none;}
 .wufoo label.desc, .wufoo legend.desc {color: #A3A3A3!important;}
 .cont-bg {background: #2e292a;border-radius: 3px;margin-top: 50px!important;}
-#231f20
-#2e292a
-
-.datepicker {font-size: 80%;}
-/*
-body {font: 90%/1.5em "Helvetia", "Arial", sans-serif;color: #ddd;-webkit-font-smoothing: antialiased;}
-#logo {display: none;}
-a {color: #bc3e9f;text-decoration: underline;outline: 0;transition .2s;}
-a:hover {text-decoration: none;color: #fff;}
-b {color: #bc3e9f;}
-#container, html.embed {background: #231f20;padding: 30px;max-width: 600px;border: none;}
-.field {background: #2e292a;padding: 15px 20px;}
-.field section >h3 {display: none;}
-.marg-bot{margin-bottom: 20px!important ;}
-form ul {background: #2e292a;}
-h3#title18{display: none;}
-.confirm h2 {color: #fff;}
-
-
-.wufoo .info h2 {color: #bc3e9f;margin-bottom: 1em;margin-bottom: 1em;font-size: 2.2em;letter-spacing: -1px;}
-.wufoo .info {border-bottom: none;}
-.wufoo .info div {color: #ddd;}
-.wufoo .section div{color: inherit;font-size: inherit;padding: 15px 20px;}
-.wufoo .section h3 {}
-.wufoo .section h3 {color: #bc3e9f;font-weight: bold;font-size: 90%;margin-bottom:10px;border-top: none;background: #231f20;padding: 20px 0;}
-.wufoo label.desc {color:inherit;}
-.wufoo legend.desc, .wufoo label.choice {color:#ccc;}
-.wufoo li div label, .wufoo li span label {color: #ccc;}
-.wufoo li.focused{background-color: #2e292a;}
-.wufoo input.btTxt {color: white;background: #bc3e9f;border: none;padding: 10px 20px;border-radius: 5px;display: block;width: 70%;margin: 0 auto;margin-top: 10px;font-weight: bold;}
-.safari .wufoo input.file {color: #fff;font-size: 80%;}
-.wufoo select.select {color: #ccc;}
-.wufoo textarea.textarea{outline: 0;margin: 0;background: #2e292a;padding: 5px 0;width: 100%;color: #fff;border: 1px solid #666;border-radius: 3px;padding: 10px;}
-
 
