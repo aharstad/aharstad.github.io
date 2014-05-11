@@ -7,6 +7,7 @@ a:hover {color:#fff;}
 #container{margin: 0 auto;max-width: 680px;border:none;position: relative;top: 100px;}
 #container, html.embed {background-color: transparent;}
 #logo{display: none;}
+.country {position: relative; left: 5%;top: 5px;}
 form.wufoo {margin:0;}
 .wufoo .info h2 {line-height: 1.1em;color: #bc3e9f!important;font-weight: bold;margin: 0;margin-bottom: 1em;font-size: 2.2em;letter-spacing: -1px;}
 .wufoo .section h3 {color: #bc3e9f!important;text-transform: uppercase;font-weight: bold;font-size: 1em;margin-bottom: 1em;}
