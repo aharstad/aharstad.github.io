@@ -19,7 +19,7 @@ form.wufoo {margin:0;}
 .wufoo label.desc, .wufoo legend.desc {color: #A3A3A3!important;}
 .cont-bg {background: #2e292a;border-radius: 3px;margin-top: 50px!important;}
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 680px) {
 #container {top: 0;}
 .leftLabel .desc {float: none;width: 100%;}
 .wufoo input.text {width: 150%;}
