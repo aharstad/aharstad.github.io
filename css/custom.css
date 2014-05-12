@@ -3,6 +3,7 @@
 .wufoo {font: 100%/1.5em "Helvetia", "Arial", sans-serif;color: #ddd;-webkit-font-smoothing: antialiased;background: #231f20;padding: 40px!important;}
 body {font-size:inherit;margin:0;}
 a, b {color: #bc3e9f!important;}
+b {text-transform: uppercase;}
 a:hover {color:#fff;}
 #container{margin: 0 auto;max-width: 680px;border:none;position: relative;top: 100px;}
 #container, html.embed {background-color: transparent;}
