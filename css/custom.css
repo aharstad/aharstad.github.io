@@ -1,5 +1,6 @@
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 *{color: #ddd!important;}
+html,body{height:100%}
 html {background-size: cover;background-position: fixed;height: 100%;}
 .wufoo {font: 100%/1.5em "Helvetia", "Arial", sans-serif;color: #ddd;-webkit-font-smoothing: antialiased;background: #231f20;padding: 40px!important;}
 body {font-size:inherit;margin:0;height: 100%;}
