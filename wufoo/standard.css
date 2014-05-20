@@ -20,12 +20,13 @@ color: white;
 padding: 10px 50px;
 border: none;
 border-radius: 5px;
-font-size: 90%;
-transition: .2s;
+font-size: 90%!important;
+transition: .1s;
+text-transform: uppercase;
 
 }
 form input[type=submit]:hover {
-background: #201F1F;
+background: #0A7AC7;
 }
 
 input[type="checkbox"] {
