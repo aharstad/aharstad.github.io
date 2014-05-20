@@ -22,16 +22,10 @@ border: none;
 border-radius: 5px;
 font-size: 90%;
 transition: .2s;
-margin-left: 0;
+
 }
 form input[type=submit]:hover {
 background: #201F1F;
-color: white;
-padding: 10px 50px;
-border: none;
-border-radius: 5px;
-font-size: 90%;
-margin-left: 10px;
 }
 
 input[type="checkbox"] {
