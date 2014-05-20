@@ -2,9 +2,9 @@
 html,body{height:100%}
 #container, html.embed {background-color: transparent;}
 
-.wufoo {
+.wufoo, body {
 font: 100%/1.5em "Helvetia", "Arial", sans-serif;
-color: #ddd;
+color: #4b4b4b;
 /*-webkit-font-smoothing: antialiased;*/
 }
 form input[type=text], input[type=tel] {
