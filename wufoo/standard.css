@@ -35,7 +35,7 @@ padding: 20px;
 background: pink;
 }
 form li {padding: 10px 0;}
-
+form li.buttons {padding: 0;}
 /* Responsiveness / Reset
 ---------------------------------------------------------------- */
 
@@ -50,3 +50,7 @@ form li .datepicker {height: 20px;width: 20px;}
 
 /*.wufoo input.text {width: 100%;}*/
 }
+
+iframe {}
+
+@media screen and (max-width: 500px){iframe {height: 1350px;}}
