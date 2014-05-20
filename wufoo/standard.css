@@ -34,8 +34,17 @@ padding: 20px;
 background: pink;
 }
 
-@media screen and (max-width: 680px) {
+
+/* Responsiveness / Reset
+---------------------------------------------------------------- */
+
+@media screen and (max-width: 500px) {
 #container {top: 0;}
 .leftLabel .desc {float: none;width: 100%;}
+li.threeColumns div span {width: 100%; margin: 0 5px 10px 0px;}
+form li.leftHalf, form li.rightHalf {width: 100%;}
+
+
+
 /*.wufoo input.text {width: 100%;}*/
 }
