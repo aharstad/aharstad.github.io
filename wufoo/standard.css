@@ -34,7 +34,7 @@ input[type="checkbox"] {
 padding: 20px;
 background: pink;
 }
-
+form li {padding: 10px 0;}
 
 /* Responsiveness / Reset
 ---------------------------------------------------------------- */
