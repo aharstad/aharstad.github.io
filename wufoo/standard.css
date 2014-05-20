@@ -6,20 +6,17 @@ font: 100%/1.5em "Helvetia", "Arial", sans-serif;
 color: #ddd;
 /*-webkit-font-smoothing: antialiased;*/
 }
-form input[type=text] {
--webkit-appearance: none;
-border: 1px solid #d8d8d8;
--webkit-border-radius: 3px;
-border-radius: 3px;
--webkit-box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 1);
-box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 1);
-color: #525252;
-font-family: 'droid-sans', Arial, Helvetica, sans-serif;
-font-size: 15px;
-height: 39px;
-margin-bottom: 10px;
-padding: 0 4%;
-width: 20%;
+form input[type=text], input[type=tel] {
+padding: 10px;
+border-top: none;
+border: 1px solid #CCC;
+height: 35px;
+border-radius: 5px;
+}
+
+input[type="checkbox"] {
+padding: 20px;
+background: pink;
 }
 
 @media screen and (max-width: 680px) {
