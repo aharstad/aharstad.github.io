@@ -7,6 +7,7 @@ font: 100%/1.5em "Helvetia", "Arial", sans-serif;
 color: #4b4b4b;
 /*-webkit-font-smoothing: antialiased;*/
 }
+#header {display: none;}
 form input[type=text], input[type=tel] {
 padding: 10px;
 border-top: none;
