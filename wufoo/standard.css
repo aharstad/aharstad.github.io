@@ -1,0 +1,27 @@
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+*{color: #ddd!important;}
+html,body{height:100%}
+html {background-size: cover;background-position: fixed;}
+.wufoo {font: 100%/1.5em "Helvetia", "Arial", sans-serif;color: #ddd;-webkit-font-smoothing: antialiased;background: #231f20;padding: 40px!important;}
+
+.input.field.text {
+-webkit-appearance: none;
+border: 1px solid #d8d8d8;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 1);
+box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 1);
+color: #525252;
+font-family: 'droid-sans', Arial, Helvetica, sans-serif;
+font-size: 15px;
+height: 39px;
+margin-bottom: 10px;
+padding: 0 4%;
+width: 20%;
+}
+
+@media screen and (max-width: 680px) {
+#container {top: 0;}
+.leftLabel .desc {float: none;width: 100%;}
+.wufoo input.text {width: 150%;}
+}
