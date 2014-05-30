@@ -8,7 +8,7 @@ color: #4b4b4b;
 /*-webkit-font-smoothing: antialiased;*/
 }
 #header {display: none;}
-txtarea.textarea, form input[type=text], input[type=tel], input[type="email"] {
+textarea, form input[type=text], input[type=tel], input[type="email"] {
 padding: 10px;
 border-top: none;
 border: 1px solid #CCC;
