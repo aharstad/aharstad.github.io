@@ -8,6 +8,7 @@ html,body{height:100%}
 /*-webkit-font-smoothing: antialiased;*/
 }
 #header {display: none;}
+.wufoo textarea.textarea {padding: 10px;}
 textarea, form input[type=text], input[type=tel], input[type="email"] {
 	padding: 10px;
 	border-top: none;
