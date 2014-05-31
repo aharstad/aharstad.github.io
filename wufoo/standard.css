@@ -38,6 +38,24 @@ form li {padding: 10px 0;}
 form li.buttons {padding: 0;}
 form li .datepicker {height: 30px;width: 30px;}
 
+/* Errors / Reset
+---------------------------------------------------------------- */
+#errorMsg {display: none;}
+#errorMsgLbl{font-size: 80%;}
+#errorLi {
+	margin: 15px auto 15px auto;
+	background: #fff !important;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 20px;
+	border-radius: 5px;
+}
+form li.error { 
+	background-color: transparent !important;
+	margin-bottom: 0px !important;
+}
+
+
 /* Responsiveness / Reset
 ---------------------------------------------------------------- */
 
