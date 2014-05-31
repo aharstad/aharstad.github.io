@@ -1,15 +1,18 @@
+/* Standard Theme Wufoo (Juni 2014) 
+   Author: Andreas Harstad
+*/
+
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 html,body{height:100%}
-#container, html.embed {background-color: transparent;}
-
-.wufoo, body {
-	font: 100%/1.5em "Helvetia", "Arial", sans-serif;
-	color: #4b4b4b;
-/*-webkit-font-smoothing: antialiased;*/
-}
 #header {display: none;}
+#container, html.embed {background-color: transparent;}
+.wufoo, body {font: 100%/1.5em "Helvetia", "Arial", sans-serif;color: #4b4b4b;}
+
+/* Modules / Reset
+---------------------------------------------------------------- */
+
 .wufoo textarea.textarea {padding: 10px;}
-textarea, form input[type=text], input[type=tel], input[type="email"] {
+textarea, form input[type=text], input[type=tel], input[type=email] {
 	padding: 10px;
 	border-top: none;
 	border: 1px solid #CCC;
@@ -27,9 +30,6 @@ form input[type=submit] {
 	text-transform: uppercase;
 }
 form input[type=submit]:hover {background: #616161;}
-
-/*input[type="checkbox"] {padding: 20px;background: pink;}
-form li {padding: 10px 0;}*/
 form li.buttons {padding: 0;}
 form li .datepicker {height: 30px;width: 30px;}
 
@@ -63,10 +63,3 @@ form li.leftHalf, form li.rightHalf, .wufoo li {width: 100%!important;}
 span#cal104 {clear: both;}
 form li .datepicker {height: 20px;width: 20px;}
 
-
-/*.wufoo input.text {width: 100%;}*/
-}
-
-iframe {}
-
-@media screen and (max-width: 500px){iframe {height: 1350px;}}
