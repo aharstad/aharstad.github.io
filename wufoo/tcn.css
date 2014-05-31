@@ -13,6 +13,7 @@ html,body{height:100%}
 
 .wufoo textarea.textarea {padding: 10px;}
 .wufoo label.desc, .wufoo legend.desc {color:#fff;}
+.wufoo li.focused{background-color: transparent;}
 textarea, form input[type=text], input[type=tel], input[type=email] {
 	padding: 10px;
 	border-top: none;
@@ -33,6 +34,7 @@ form input[type=submit] {
 form input[type=submit]:hover {background: #f9aa32;}
 form li.buttons {padding: 0;}
 form li .datepicker {height: 30px;width: 30px;}
+
 
 /* Errors / Reset
 ---------------------------------------------------------------- */
