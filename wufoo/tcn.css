@@ -12,6 +12,7 @@ html,body{height:100%}
 ---------------------------------------------------------------- */
 
 .wufoo textarea.textarea {padding: 10px;}
+.wufoo label.desc, .wufoo legend.desc {color:#fff;}
 textarea, form input[type=text], input[type=tel], input[type=email] {
 	padding: 10px;
 	border-top: none;
