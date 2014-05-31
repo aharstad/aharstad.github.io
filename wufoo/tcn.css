@@ -29,7 +29,7 @@ form input[type=submit] {
 	transition: .1s;
 	text-transform: uppercase;
 }
-form input[type=submit]:hover {background: #616161;}
+form input[type=submit]:hover {background: #f9aa32;}
 form li.buttons {padding: 0;}
 form li .datepicker {height: 30px;width: 30px;}
 
