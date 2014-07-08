@@ -40,7 +40,7 @@ input.medium, select.medium {width: 100%!important}
 #errorMsg {display: none;}
 #errorMsgLbl{font-size: 80%;}
 #errorLi {
-	margin: 15px auto 15px auto;
+	margin: 0px auto 0px auto;
 	background: #fff !important;
 	text-align: center;
 	-webkit-border-radius: 5px;
