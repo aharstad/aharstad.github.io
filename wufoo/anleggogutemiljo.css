@@ -47,6 +47,7 @@ input.medium, select.medium {width: 100%!important}
 	-moz-border-radius: 20px;
 	border-radius: 5px;
 	border: 0px solid red;
+	padding: 0;
 }
 form li.error { 
 	background-color: transparent !important;
