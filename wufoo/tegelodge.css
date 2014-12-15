@@ -16,11 +16,12 @@ input.text, input.search, textarea.textarea {
 	padding: 10px 0;
 	border-bottom: 1px solid #fff;
 }
-label.desc, legend.desc {
+.wufoo label.desc, .wufoo legend.desc {
 	color: #fff;
 	font-weight: normal;
 	font-size: 100%;
 }
+
 .wufoo textarea.textarea {padding: 10px;}
 form input[type=submit] {
 	background: #302d2e;
