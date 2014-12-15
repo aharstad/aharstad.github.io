@@ -17,12 +17,14 @@ input.text, input.search, textarea.textarea {
 	border-bottom: 1px solid #fff;
 }
 .wufoo label.desc, .wufoo legend.desc {
-	color: #fff;
+	color: #fff!important;
 	font-weight: normal;
 	font-size: 100%;
 }
 
 .wufoo textarea.textarea {padding: 10px;}
+.wufoo .section h3 {display: none;}
+
 form input[type=submit] {
 	background: #302d2e;
 	color: white;
@@ -36,6 +38,8 @@ form input[type=submit] {
 form input[type=submit]:hover {background: #616161;}
 form li.buttons {padding: 0;}
 form li .datepicker {height: 30px;width: 30px;}
+.wufoo li.focused {background-color: none;}
+input:focus {outline: none;}
 
 /* Errors / Reset
 ---------------------------------------------------------------- */
