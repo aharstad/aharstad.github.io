@@ -14,11 +14,11 @@ a {color: #C3C3C3;text-decoration: none;}
 input.text, input.search, textarea.textarea {
 	border: none;
 	background: none;
-	padding: 10px 0;
+	padding: 10px 10px;
 	border-bottom: 1px solid #fff;
 }
 .wufoo label.desc, .wufoo legend.desc {
-	color: #fff!important;
+	color: #C0C0C0!important;
 	font-weight: normal;
 	font-size: 100%;
 }
@@ -39,7 +39,6 @@ form input[type=submit] {
 	border: 1px solid #fff;
 	width: 100%;
 }
-form input[type=submit]:hover {background: #616161;}
 form li.buttons {padding: 0;}
 form li .datepicker {height: 30px;width: 30px;}
 .wufoo li.focused {background-color: transparent!important;}
