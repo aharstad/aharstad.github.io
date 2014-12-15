@@ -21,7 +21,9 @@ input.text, input.search, textarea.textarea {
 	font-weight: normal;
 	font-size: 100%;
 }
-
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
+	color: #fff!important;
+}
 .wufoo textarea.textarea {padding: 10px;}
 .wufoo .section h3 {display: none;}
 
@@ -38,7 +40,7 @@ form input[type=submit] {
 form input[type=submit]:hover {background: #616161;}
 form li.buttons {padding: 0;}
 form li .datepicker {height: 30px;width: 30px;}
-.wufoo li.focused {background-color: none;}
+.wufoo li.focused {background-color: none!important;}
 input:focus {outline: none;}
 
 /* Errors / Reset
