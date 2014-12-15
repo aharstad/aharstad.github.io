@@ -22,13 +22,6 @@ label.desc, legend.desc {
 	font-size: 100%;
 }
 .wufoo textarea.textarea {padding: 10px;}
-textarea, form input[type=text], input[type=tel], input[type=email] {
-	padding: 10px;
-	border-top: none;
-	border: 1px solid #CCC;
-	height: 35px;
-	border-radius: 5px;
-}
 form input[type=submit] {
 	background: #302d2e;
 	color: white;
