@@ -4,7 +4,7 @@ html,body{height:100%}
 html {background-size: cover;background-position: fixed;}
 .wufoo {font: 100%/1.5em "Helvetia", "Arial", sans-serif;color: #ddd;-webkit-font-smoothing: antialiased;background: #231f20;padding: 40px!important;}
 body {font-size:inherit;margin:0;height: 100%;}
-a, b {color: #bc3e9f!important;}
+a, b {color: #fff7ed;}
 b {text-transform: uppercase;}
 a:hover {color:#fff;}
 #container{margin: 0 auto;max-width: 680px;border:none;position: relative;top: 100px;}
@@ -12,8 +12,8 @@ a:hover {color:#fff;}
 #logo{display: none;}
 .country {position: relative; left: 5%;top: 5px;}
 form.wufoo {margin:0;}
-.wufoo .info h2 {line-height: 1.1em;color: #bc3e9f!important;font-weight: bold;margin: 0;margin-bottom: 1em;font-size: 2.2em;letter-spacing: -1px;}
-.wufoo .section h3 {color: #bc3e9f!important;text-transform: uppercase;font-weight: bold;font-size: 1em;margin-bottom: 1em;}
+.wufoo .info h2 {line-height: 1.1em;color: #fff7ed;font-weight: bold;margin: 0;margin-bottom: 1em;font-size: 2.2em;letter-spacing: -1px;}
+.wufoo .section h3 {color: #fff7ed;text-transform: uppercase;font-weight: bold;font-size: 1em;margin-bottom: 1em;}
 .wufoo .section div {font-size: inherit;}
 .wufoo input.text {border: 0;outline: 0;margin: 0;background: #231f20;padding: 5px 0;width: 100%;color: #fff;border-bottom: 1px solid #666;}
 .wufoo input.btTxt {text-decoration: none;color: #fff;background: #bc3e9f;padding: 10px 30px;margin: 0 2px 2px 0;border: none;font-size: 100%;font-family: inherit;}
