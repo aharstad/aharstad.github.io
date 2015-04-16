@@ -23,6 +23,7 @@ form.wufoo {margin:0;}
 .cont-bg {background: #2e292a;border-radius: 3px;margin-top: 20px!important;}
 .state {display: none;}
 .full.addr2 {display: none;}
+body.embed{overflow:auto !important}
 @media screen and (max-width: 680px) {
 #container {top: 0;}
 .leftLabel .desc {float: none;width: 100%;}
