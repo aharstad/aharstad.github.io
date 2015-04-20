@@ -25,7 +25,7 @@ form.wufoo {margin:0;}
 .full.addr2 {display: none;}
 body.embed{overflow:auto !important}
 @media screen and (max-width: 680px) {
-	iframe{height: 8000px;}
+iframe{height: 8000px;}
 #container {top: 0;}
 .leftLabel .desc {float: none;width: 100%;}
 .wufoo input.text {width: 150%;}
