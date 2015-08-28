@@ -38,7 +38,6 @@ form li .datepicker {height: 30px;width: 30px;}
 .wufoo li.focused{background-color: transparent;}
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
 	    font-size: 120%;
-	        width: 100%;
 }
 form input[type=submit]{min-width: 300px;padding: 20px 50px;}
 form input[type=submit]:hover {
@@ -69,6 +68,9 @@ form li.error {
 ---------------------------------------------------------------- */
 
 @media screen and (max-width: 700px) {
+	.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
+	        width: 100%;
+}
 #container {top: 0;}
 .leftLabel .desc {float: none;width: 100%;}
 li.threeColumns div span {width: 100%; margin: 0 5px 10px 0px;}
