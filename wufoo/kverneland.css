@@ -55,11 +55,13 @@ form li.error {
 /* Responsiveness / Reset
 ---------------------------------------------------------------- */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 #container {top: 0;}
 .leftLabel .desc {float: none;width: 100%;}
 li.threeColumns div span {width: 100%; margin: 0 5px 10px 0px;}
 form li.leftHalf, form li.rightHalf, .wufoo li {width: 100%!important;}
 span#cal104 {clear: both;}
 form li .datepicker {height: 20px;width: 20px;}
+form input[type=submit]{width: 100%;
+    padding: 20px;}
 
