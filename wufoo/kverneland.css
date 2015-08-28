@@ -34,12 +34,17 @@ form input[type=submit]:hover {background: #616161;}
 form li {    padding: 20px 0;}
 form li.buttons {padding: 0;}
 form li .datepicker {height: 30px;width: 30px;}
-.wufoo label.desc, .wufoo legend.desc{font-size: 1.5rem;}
+.wufoo label.desc, .wufoo legend.desc{font-size: 2rem;}
 .wufoo li.focused{background-color: transparent;}
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
 	    font-size: 120%;
+	        width: 100%;
 }
 form input[type=submit]{min-width: 300px;padding: 20px 50px;}
+form input[type=submit]:hover {
+    background: #032A55;
+    cursor: pointer;
+}
 
 /* Errors / Reset
 ---------------------------------------------------------------- */
@@ -72,4 +77,7 @@ span#cal104 {clear: both;}
 form li .datepicker {height: 20px;width: 20px;}
 form input[type=submit]{width: 100%;
     padding: 20px;}
+    .wufoo label.desc, .wufoo legend.desc {
+    font-size: 1.5rem;
+}
 
