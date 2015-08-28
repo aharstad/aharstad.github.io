@@ -1,0 +1,65 @@
+/* Kverneland Bil (Sep 2015) 
+   Author: Andreas Harstad
+*/
+
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+html,body{height:100%}
+#header {display: none;}
+#container, html.embed {background-color: transparent;}
+.wufoo, body {font: 100%/1.5em "Helvetia", "Arial", sans-serif;color: #4b4b4b;}
+
+/* Modules / Reset
+---------------------------------------------------------------- */
+
+.wufoo textarea.textarea {padding: 10px;}
+textarea, form input[type=text], input[type=tel], input[type=email] {
+	padding: 10px;
+	border-top: none;
+	border: 1px solid #CCC;
+	height: 35px;
+	border-radius: 5px;
+}
+form input[type=submit] {
+	background: #302d2e;
+	color: white;
+	padding: 10px 50px;
+	border: none;
+	border-radius: 5px;
+	font-size: 90%!important;
+	transition: .1s;
+	text-transform: uppercase;
+}
+form input[type=submit]:hover {background: #616161;}
+form li.buttons {padding: 0;}
+form li .datepicker {height: 30px;width: 30px;}
+
+/* Errors / Reset
+---------------------------------------------------------------- */
+#errorMsg {display: none;}
+#errorMsgLbl{font-size: 80%;}
+#errorLi {
+	margin: 15px auto 15px auto;
+	background: #fff !important;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 20px;
+	border-radius: 5px;
+	border: 0px solid red;
+}
+form li.error { 
+	background-color: transparent !important;
+	margin-bottom: 0px !important;
+}
+
+
+/* Responsiveness / Reset
+---------------------------------------------------------------- */
+
+@media screen and (max-width: 500px) {
+#container {top: 0;}
+.leftLabel .desc {float: none;width: 100%;}
+li.threeColumns div span {width: 100%; margin: 0 5px 10px 0px;}
+form li.leftHalf, form li.rightHalf, .wufoo li {width: 100%!important;}
+span#cal104 {clear: both;}
+form li .datepicker {height: 20px;width: 20px;}
+
