@@ -16,8 +16,9 @@ textarea, form input[type=text], input[type=tel], input[type=email] {
 	padding: 10px;
 	border-top: none;
 	border: 1px solid #CCC;
-	height: 35px;
+	height: 50px;
 	border-radius: 5px;
+	outline: none;
 }
 form input[type=submit] {
 	background: #302d2e;
@@ -33,6 +34,12 @@ form input[type=submit]:hover {background: #616161;}
 form li {    padding: 20px 0;}
 form li.buttons {padding: 0;}
 form li .datepicker {height: 30px;width: 30px;}
+.wufoo label.desc, .wufoo legend.desc{font-size: 1.5rem;}
+.wufoo li.focused{background-color: transparent;}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
+	    font-size: 120%;
+}
+form input[type=submit]{min-width: 300px;padding: 20px 50px;}
 
 /* Errors / Reset
 ---------------------------------------------------------------- */
