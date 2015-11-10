@@ -12,7 +12,7 @@ html,body{height:100%}
 ---------------------------------------------------------------- */
 .wufoo label.desc, .wufoo legend.desc{color: #fff;}
 input.medium, select.medium {
-    width: 100%;
+    width: 100%!important;
 }
 .wufoo textarea.textarea {padding: 10px;}
 textarea, form input[type=text], input[type=tel], input[type=email] {
