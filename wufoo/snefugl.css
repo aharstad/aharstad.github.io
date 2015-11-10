@@ -15,7 +15,17 @@ input.medium, select.medium {
     width: 100%;
 }
 .wufoo li.focused{    background-color: transparent;}
-
+form input[type=submit]{background: #8C3000;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 90%!important;
+    transition: .1s;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;}
 .wufoo textarea.textarea {padding: 10px;}
 textarea, form input[type=text], input[type=tel], input[type=email] {
 	padding: 10px;
