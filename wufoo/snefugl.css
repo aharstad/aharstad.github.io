@@ -34,6 +34,7 @@ textarea, form input[type=text], input[type=tel], input[type=email] {
 	height: 35px;
 	border-radius: 5px;
 } 
+.confirm h2{color: #FFFFFF;font-size: 120%;}
 .wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label, .safari .wufoo li.focused input.file
 {color: #fff;}
 form input[type=submit] {
