@@ -62,4 +62,6 @@ li.threeColumns div span {width: 100%; margin: 0 5px 10px 0px;}
 form li.leftHalf, form li.rightHalf, .wufoo li {width: 100%!important;}
 span#cal104 {clear: both;}
 form li .datepicker {height: 20px;width: 20px;}
+input.medium, select.medium{width: 100%!important;}
 
+}
