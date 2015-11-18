@@ -10,7 +10,7 @@ html,body{height:100%}
 
 /* Modules / Reset
 ---------------------------------------------------------------- */
-.wufoo li.focused, form li.focused{background-color: transparent;}
+.wufoo li.focused, form li.focused{background-color: transparent!important;}
 .wufoo textarea.textarea {padding: 10px 0;}
 textarea, form input[type=text], input[type=tel], input[type=email] {
 	padding: 10px 0px 0px;
