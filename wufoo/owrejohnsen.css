@@ -22,6 +22,7 @@ textarea, form input[type=text], input[type=tel], input[type=email] {
 .medium {
     width: 100%!important;
 }
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{    outline: none;}
 form input[type=submit] {
 	background: #BED2D9;
 	color: white;
