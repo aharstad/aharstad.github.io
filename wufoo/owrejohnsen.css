@@ -1,4 +1,4 @@
-/* Standard Theme (Juni 2014) 
+/* Owrejohnsen (Juni 2014) 
    Author: Andreas Harstad
 */
 
@@ -18,6 +18,9 @@ textarea, form input[type=text], input[type=tel], input[type=email] {
 	border: 1px solid #CCC;
 	height: 35px;
 	border-radius: 5px;
+}
+.medium {
+    width: 100%!important;
 }
 form input[type=submit] {
 	background: #BED2D9;
