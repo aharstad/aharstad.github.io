@@ -1,0 +1,86 @@
+/* Standard Theme (Juni 2014) 
+   Author: Andreas Harstad
+*/
+
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+html,body{height:100%}
+#header {display: none;}
+#container, html.embed {background-color: transparent;}
+.wufoo, body {font: 100%/1.5em "Helvetia", "Arial", sans-serif;color: #4b4b4b;}
+
+/* Modules / Reset
+---------------------------------------------------------------- */
+
+.wufoo textarea.textarea {padding: 10px 0;}
+textarea, form input[type=text], input[type=tel], input[type=email] {
+	padding: 10px 0px 0px;
+	border-top: none;
+	border: 1px solid #CCC;
+	height: 35px;
+	border-radius: 5px;
+}
+form input[type=submit] {
+	background: #BED2D9;
+	color: white;
+	padding: 10px 50px;
+	border: none;
+	border-radius: 5px;
+	font-size: 90%!important;
+	transition: .1s;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #004996;
+}
+form input[type=submit]:hover {
+    background: #004996;
+    color: #fff;
+}
+form input[type=submit]:hover {background: #616161;}
+form li.buttons {padding: 0;margin: 10px 0;}
+form li {padding: 20px 0% 0px 0%;}
+label.desc, legend.desc{padding: 0;}
+form li .datepicker {height: 30px;width: 30px;}
+input.text, input.search, textarea.textarea{background: transparent;border: none;}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{    
+	border-bottom: 1px solid rgba(0, 73, 150, 0.5);
+    font-size: 100%;
+    border-bottom: 1px solid white;
+    border-radius: 0;}
+    .wufoo label.desc, .wufoo legend.desc{color: #004996;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+form span.req{color: #0044cc !important;}
+/* Errors / Reset
+---------------------------------------------------------------- */
+#errorMsg {display: none;}
+#errorMsgLbl{font-size: 80%;}
+#errorLi {
+	margin: 15px auto 15px auto;
+	background: #fff !important;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 20px;
+	border-radius: 5px;
+	border: 0px solid red;
+}
+form li.error { 
+	background-color: transparent !important;
+	margin-bottom: 0px !important;
+}
+
+
+/* Responsiveness / Reset
+---------------------------------------------------------------- */
+
+@media screen and (max-width: 500px) {
+#container {top: 0;}
+.leftLabel .desc {float: none;width: 100%;}
+li.threeColumns div span {width: 100%; margin: 0 5px 10px 0px;}
+form li.leftHalf, form li.rightHalf, .wufoo li {width: 100%!important;}
+span#cal104 {clear: both;}
+form li .datepicker {height: 20px;width: 20px;}
+input.medium, select.medium{width: 100%!important;}
+
+}
