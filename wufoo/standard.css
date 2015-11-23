@@ -51,7 +51,7 @@ form li.error {
 	margin-bottom: 0px !important;
 }
 form li{padding: 10px 0;}
-form li.section h3{font-size: 16px!important;margin: 10px 0;}
+form li.section h3{font-size: 16px!important;margin: 10px 0;padding: 10px 0;}
 
 /* Responsiveness / Reset
 ---------------------------------------------------------------- */
