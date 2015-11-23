@@ -50,7 +50,7 @@ form li.error {
 	background-color: transparent !important;
 	margin-bottom: 0px !important;
 }
-
+form li{padding: 10px 0;}
 
 /* Responsiveness / Reset
 ---------------------------------------------------------------- */
