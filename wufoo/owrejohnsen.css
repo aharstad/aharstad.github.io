@@ -25,7 +25,7 @@ textarea, form input[type=text], input[type=tel], input[type=email] {
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{    outline: none;}
 form input[type=submit] {
 	background: #BED2D9;
-	color: white;
+	border: 5px solid #004996;
 	padding: 10px 50px;
 	border: none;
 	border-radius: 5px;
@@ -48,7 +48,7 @@ input.text, input.search, textarea.textarea{background: transparent;border: none
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{    
 	border-bottom: 1px solid rgba(0, 73, 150, 0.5);
     font-size: 100%;
-    border-bottom: 1px solid white;
+        border-bottom: 5px solid #D0E1E7;
     border-radius: 0;
     border-left: 0;
     border-top: 0;
