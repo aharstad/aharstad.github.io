@@ -25,7 +25,7 @@ textarea, form input[type=text], input[type=tel], input[type=email] {
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{    outline: none;}
 form input[type=submit] {
 	background: #BED2D9;
-	border: 5px solid #004996;
+	border:5px solid #004996!important;
 	padding: 10px 50px;
 	border: none;
 	border-radius: 5px;
@@ -39,7 +39,11 @@ form input[type=submit]:hover {
     background: #004996;
     color: #fff;
 }
-form input[type=submit]:hover {background: #616161;}
+form input[type=submit]:hover {
+    background: #004996;
+    color: #fff;
+    cursor: pointer;
+}
 form li.buttons {padding: 0;margin: 10px 0;}
 form li {padding: 20px 0% 0px 0%;}
 label.desc, legend.desc{padding: 0;}
