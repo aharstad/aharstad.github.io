@@ -29,5 +29,5 @@ iframe{height: 8000px;}
 #container {top: 0;}
 .leftLabel .desc {float: none;width: 100%;}
 .wufoo input.text {width: 150%;}
-
+.wufoo .info h2{    font-size: 1.4rem;}
 }
