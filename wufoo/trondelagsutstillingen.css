@@ -1,5 +1,5 @@
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
-*{color: #ddd!important;}
+*{color: #fff7ed!important;}
 html,body{height:100%}
 html {background-size: cover;background-repeat: no-repeat;background-attachment: fixed;}
 .wufoo {font: 100%/1.5em "Helvetia", "Arial", sans-serif;color: #ddd;-webkit-font-smoothing: antialiased;background: #231f20;  padding: 22px 0px!important;}
