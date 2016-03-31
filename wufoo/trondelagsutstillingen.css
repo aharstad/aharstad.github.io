@@ -26,7 +26,9 @@ form.wufoo {margin:0;}
 form li{    padding: 2px 0 8px;}
 .full.addr2 {display: none;}
 body.embed{overflow:auto !important}
-header h2{display: none;}
+header h2 {
+    display: none;
+}
 .desc {
     position: relative;
 }
