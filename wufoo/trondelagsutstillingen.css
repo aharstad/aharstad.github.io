@@ -5,6 +5,7 @@ html {background-size: cover;background-repeat: no-repeat;background-attachment:
 .wufoo {font: 100%/1.5em "Helvetia", "Arial", sans-serif;color: #ddd;-webkit-font-smoothing: antialiased;background: #231f20;  padding: 22px 0px!important;}
 body {font-size:inherit;margin:0;height: 100%;}
 a, b {color: #fff7ed;    font-weight: 700;}
+a{color: #e20712!important;}
 b {text-transform: uppercase;}
 a:hover {color:#fff;}
 #container{margin: 0 auto;max-width: 680px;border:none;position: relative;top: 100px;}
