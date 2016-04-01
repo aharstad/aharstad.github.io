@@ -13,7 +13,7 @@ a:hover {color:#fff;}
 .country {position: relative; left: 5%;top: 5px;}
 form.wufoo {margin:0;}
 .wufoo .info h2 {line-height: 1.1em;color: #fff7ed;font-weight: bold;margin: 0;margin-bottom: 1em;font-size: 2.2em;letter-spacing: -1px;}
-.wufoo .section h3 {color: #fff7ed;text-transform: uppercase;font-weight: bold;font-size: 1em;margin-bottom: 1em;}
+.wufoo .section h3 {    color: #e20712!important;text-transform: uppercase;font-weight: bold;font-size: 1em;margin-bottom: 1em;}
 .wufoo .section div {font-size: inherit;}
 .wufoo input.text {border: 0;outline: 0;margin: 0;background: #231f20;padding: 5px 0;width: 100%;color: #fff;border-bottom: 1px solid #666;}
 .wufoo input.btTxt {text-decoration: none;color: #000!important;background: #fff7ed;padding: 10px 30px;margin: 0 2px 2px 0;border: none;font-size: 100%;font-family: inherit;}
