@@ -12,12 +12,14 @@ html,body{height:100%}
 ---------------------------------------------------------------- */
 
 .wufoo textarea.textarea {padding: 10px;}
-textarea, form input[type=text], input[type=tel], input[type=email] {
-	padding: 10px;
-	border-top: none;
-	border: 1px solid #CCC;
-	height: 35px;
-	border-radius: 5px;
+input[type=text], input[type=email], input[type=number] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #F9F8F7;
+    font-size: 1rem;
+    outline: none;
+    padding: 10px;
+    transition: .1s;
 }
 form input[type=submit] {
 	background: #302d2e;
@@ -67,69 +69,6 @@ form li .datepicker {height: 20px;width: 20px;}
 input.medium, select.medium{width: 100%!important;}
 
 
-
- label {
-    display:block;
-    margin-bottom: 10px;
-}
- label > span{
-    display: inline-block;
-    float: left;
-    width: 10px;
-    height: 10px;
-}
- input[type=text],
- input[type=email],
-  input[type=number]
-{
-    background: transparent;
-    border: none;
-    border-bottom: 1px dashed #F9F8F7;
-        font-size: 1rem;
-    outline: none;
-    padding: 10px;
-        transition: .1s;
-
-}
- textarea{
-
-    padding: 0px 0px 0px 0px;
-    background: transparent;
-    outline: none;
-    border: none;
-    border-bottom: 1px dashed #83A4C5;
-    width: 275px;
-    overflow: hidden;
-    resize:none;
-    height:20px;
-}
-
- textarea:focus, 
- input[type=text]:focus,
- input[type=email]:focus,
- input[type=email] :focus
-{
-    border-bottom: 1px dashed #E1BA82;
-}
- input[type=number]{width: 100%;} 
- 
- 
- input[type=submit],
- input[type=button]{
-    background: #E1BA82;
-    border: none;
-    padding: 15px;
-    border-radius: 5px;
-    color: #5B3A24;
-    font-size: 1rem;
-    font-weight: 700;
-    letter-spacing: -.8px;
-        transition: .2s;
-}
-input[type=submit]:hover, input[type=button]:hover {
-   background: #CA903D;
-    cursor: pointer!important;
-}
 
 
 }
