@@ -32,6 +32,7 @@ textarea, form input[type=text], input[type=tel], input[type=email]{
 	transition: .1s;
 	height: 40px;
 }
+.embed .confirm h2.paidHeading{color: #fff!important}
 form input[type=submit]:hover {
     background: #C7A165;
 }
