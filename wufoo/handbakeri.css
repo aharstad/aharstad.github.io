@@ -36,6 +36,17 @@ textarea, form input[type=text], input[type=tel], input[type=email]{
 form input[type=submit]:hover {background: #616161;}
 form li.buttons {padding: 0;}
 form li .datepicker {height: 30px;width: 30px;}
+form li.leftHalf, form li.rightHalf, .wufoo li {width: 100%!important;}
+.wufoo li.focused{background-color: transparent;}
+input.medium, select.medium{width: 100%!important;}
+
+.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label, .safari .wufoo li.focused input.file, .wufoo label.desc, .wufoo legend.desc {
+    color: #FFFFFF;
+}
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
+    font-family: inherit;
+    color: #FFFFFF;
+}
 
 /* Errors / Reset
 ---------------------------------------------------------------- */
