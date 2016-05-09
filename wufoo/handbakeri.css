@@ -1,0 +1,132 @@
+/* Standard Theme (Juni 2014) 
+   Author: Andreas Harstad
+*/
+
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+html,body{height:100%}
+#header {display: none;}
+#container, html.embed {background-color: transparent;}
+.wufoo, body {font: 100%/1.5em "Helvetia", "Arial", sans-serif;color: #4b4b4b;}
+
+/* Modules / Reset
+---------------------------------------------------------------- */
+
+.wufoo textarea.textarea {padding: 10px;}
+textarea, form input[type=text], input[type=tel], input[type=email] {
+	padding: 10px;
+	border-top: none;
+	border: 1px solid #CCC;
+	height: 35px;
+	border-radius: 5px;
+}
+form input[type=submit] {
+	background: #302d2e;
+	color: white;
+	padding: 10px 50px;
+	border: none;
+	border-radius: 5px;
+	font-size: 90%!important;
+	transition: .1s;
+	text-transform: uppercase;
+}
+form input[type=submit]:hover {background: #616161;}
+form li.buttons {padding: 0;}
+form li .datepicker {height: 30px;width: 30px;}
+
+/* Errors / Reset
+---------------------------------------------------------------- */
+#errorMsg {display: none;}
+#errorMsgLbl{font-size: 80%;}
+#errorLi {
+	margin: 15px auto 15px auto;
+	background: #fff !important;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 20px;
+	border-radius: 5px;
+	border: 0px solid red;
+}
+form li.error { 
+	background-color: transparent !important;
+	margin-bottom: 0px !important;
+}
+form li{padding: 10px 0;}
+form li.section h3{font-size: 16px!important;margin: 10px 0;padding: 10px 0;}
+
+/* Responsiveness / Reset
+---------------------------------------------------------------- */
+
+ label {
+    display:block;
+    margin-bottom: 10px;
+}
+ label > span{
+    display: inline-block;
+    float: left;
+    width: 10px;
+    height: 10px;
+}
+ input[type=text],
+ input[type=email],
+  input[type=number]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #F9F8F7;
+        font-size: 1rem;
+    outline: none;
+    padding: 10px;
+        transition: .1s;
+
+}
+ textarea{
+
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    overflow: hidden;
+    resize:none;
+    height:20px;
+}
+
+ textarea:focus, 
+ input[type=text]:focus,
+ input[type=email]:focus,
+ input[type=email] :focus
+{
+    border-bottom: 1px dashed #E1BA82;
+}
+ input[type=number]{width: 100%;} 
+ 
+ 
+ input[type=submit],
+ input[type=button]{
+    background: #E1BA82;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: #5B3A24;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -.8px;
+        transition: .2s;
+}
+input[type=submit]:hover, input[type=button]:hover {
+   background: #CA903D;
+    cursor: pointer!important;
+}
+
+
+@media screen and (max-width: 500px) {
+#container {top: 0;}
+.leftLabel .desc {float: none;width: 100%;}
+li.threeColumns div span {width: 100%; margin: 0 5px 10px 0px;}
+form li.leftHalf, form li.rightHalf, .wufoo li {width: 100%!important;}
+span#cal104 {clear: both;}
+form li .datepicker {height: 20px;width: 20px;}
+input.medium, select.medium{width: 100%!important;}
+
+}
