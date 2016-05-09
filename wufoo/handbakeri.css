@@ -46,6 +46,9 @@ form li.section {
     margin: 0;
     color: #fff;
 }
+
+.wufoo .section div{color: #fff!important}
+
 form input[type=submit]{
     background: #E1BA7D;
     padding: 10px;
