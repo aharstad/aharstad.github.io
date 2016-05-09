@@ -36,7 +36,16 @@ textarea, form input[type=text], input[type=tel], input[type=email]{
 form input[type=submit]:hover {
     background: #C7A165;
 }
-
+.wufoo .section h3{    display: none;}
+form li.section {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: auto !important;
+    position: static;
+    margin: 0;
+    color: #fff;
+}
 form input[type=submit]{
     background: #E1BA7D;
     padding: 10px;
