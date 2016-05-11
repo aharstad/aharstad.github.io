@@ -32,7 +32,7 @@ textarea, form input[type=text], input[type=tel], input[type=email]{
 	transition: .1s;
 	height: 40px;
 }
-.embed .confirm h2.paidHeading{color: #fff!important}
+.embed .confirm h2.paidHeading{color: #000!important}
 form input[type=submit]:hover {
     background: #C7A165;
 }
@@ -44,10 +44,10 @@ form li.section {
     width: auto !important;
     position: static;
     margin: 0;
-    color: #fff;
+    color: #000;
 }
 
-.wufoo .section div{color: #fff!important}
+.wufoo .section div{color: #000!important}
 
 form input[type=submit]{
     background: #E1BA7D;
@@ -72,16 +72,16 @@ form li.leftHalf, form li.rightHalf, .wufoo li {width: 100%!important;}
 input.medium, select.medium{width: 100%!important;}
 
 .wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label, .safari .wufoo li.focused input.file, .wufoo label.desc, .wufoo legend.desc {
-    color: #FFFFFF;
+    color: #000;
 }
 .wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
     font-family: inherit;
-    color: #FFFFFF;
+    color: #000;
 }
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
     font-style: normal;
     font-weight: normal;
-    color: #FFFFFF;
+    color: #000;
     font-size: 100%;
 }
 /* Errors / Reset
@@ -90,7 +90,7 @@ input.medium, select.medium{width: 100%!important;}
 #errorMsgLbl{font-size: 80%;}
 #errorLi {
 	margin: 15px auto 15px auto;
-	background: #fff !important;
+	background: #000 !important;
 	text-align: center;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 20px;
